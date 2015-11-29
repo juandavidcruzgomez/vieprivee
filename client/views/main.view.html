@@ -1,0 +1,49 @@
+<div class="wrap" role="document">
+    <main class="main" role="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="row page-header">
+                <div class="col-md-2">
+                  <img src="views/logo.png">
+                </div>
+                <div class="col-md-offset-2 col-md-8">
+                  <h1 class="site-header">Ce que l'on fait sur l'Internet !</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 well">
+                  <ul class="nav nav-tabs">
+                    <li role="presentation" class="active"><a showtab="" href="#urls">List of URLs</a></li>
+                    <li role="presentation"><a showtab="" href="#graph">Graph</a></li>
+                  </ul>
+                  
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active well url-list-pane" id="urls">
+                      <table class="restab" border=1>
+                        <th width="15%">Origin</th>
+                        <th>URL</th>
+                        <tr ng-repeat="(origin, content) in urls">
+                          <td>{{origin}}</td>
+                          <td class="url-list-box">
+                            <ul class="url-list">
+                              <li ng-repeat="url in content.content"><a href="{{url}}">{{extractBaseUrl(url)}}</a></li>
+                            </ul>                          
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="graph">
+                      <graph graphdata="urls" ></graph>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <hr>
+
+        </div>
+        <!-- /container -->
+    </main>
+</div>

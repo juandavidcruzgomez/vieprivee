@@ -1,0 +1,25 @@
+{
+  "name": "vie-privee-client",
+  "description": "The client side of the vie privee project",
+  "version": "0.0.0",
+  "homepage": "TBD",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-mocks": "~1.2.x",
+    "jquery": "1.10.2",
+    "bootstrap": "~3.1.1",
+    "d3": "~3.4.x",
+    "angular-route": "~1.3.0",
+    "angular-resource": "~1.3.x",
+    "angular-animate": "~1.2.x",
+    "ng-flow": "*",
+    "angular-ui-router": "~0.2.13",
+    "angular-cookies": "~1.3.15",
+    "font-awesome": "~4.3.0"
+  },
+  "resolutions": {
+    "angular": ">= 1.0.8"
+  }
+}

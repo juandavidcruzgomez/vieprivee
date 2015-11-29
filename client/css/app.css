@@ -1,0 +1,103 @@
+html { 
+    height:100%;
+}
+
+body { 
+	height:100%;
+	min-height:100%;
+}
+
+.scrollable{
+	overflow: scroll;	
+	}
+	
+.content-panel{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	}
+	
+.animate-show {
+	margin-top: 1px;
+	padding:1px;
+	margin-left: 30px;
+	background:#fff;
+	list-style-type: none;
+}
+
+.page-header: {
+  background-color: #003366;
+}
+
+.site-header {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.url-list-pane {
+  padding: 5px;
+}
+
+.url-list-pane td {
+  padding: 5px;
+}
+
+.restab {
+  border-collapse:collapse; 
+  table-layout:fixed; 
+  width:100%;
+}
+
+.url-list-box {
+  width:900px;
+  word-wrap:break-word;
+}
+
+.url-list {
+table-layout:fixed;
+  word-wrap:break-word;
+  list-style-type: none;
+  -webkit-padding-start: 10px;
+  padding-left: 0px;
+}
+
+.animate-show.ng-hide-add.ng-hide-add-active,
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+  -webkit-transition:all linear 0.5s;
+  transition:all linear 0.5s;
+}
+
+.animate-show.ng-hide {
+  line-height:0;
+  opacity:0;
+  padding:0 10px;
+}
+
+.graph-space {
+	padding:1px;
+	border-style: solid;
+	border-width: 0 1px 1px 1px;
+	height: 520px;
+	width: 100%;
+}
+
+
+.collapse.width {
+    height: auto;
+    -webkit-transition: width 0.35s ease;
+    -moz-transition: width 0.35s ease;
+    -o-transition: width 0.35s ease;
+    transition: width 0.35s ease;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}
+
+
