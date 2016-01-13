@@ -3,7 +3,7 @@
   "private": true,
   "name": "vie-privee",
   "description": "Are you aware?",
-  "license": "",
+  "license": "GPLv3",
   "main": "server.js",
   "dependencies": {
     "body-parser": "~1.4.3",

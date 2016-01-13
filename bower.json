@@ -2,8 +2,8 @@
   "name": "vie-privee-client",
   "description": "The client side of the vie privee project",
   "version": "0.0.0",
-  "homepage": "TBD",
-  "license": "MIT",
+  "homepage": "http://localhost",
+  "license": "GPLv3",
   "private": true,
   "dependencies": {
     "angular": "1.2.x",
