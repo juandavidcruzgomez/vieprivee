@@ -4,7 +4,7 @@ This is a basic way to process data from airpcap and such tools for analyzing tr
 
 This has been written by Juan David Cruz-Gomez and the wonderful collaboration of 
 July Cortes, Santiago Ruano, Isabel Amigo and other people I just don't remember the name (my bad)
-for the Brest Scince Hack Day 2015.
+for the Brest Science Hack Day 2015.
 
 ## Requirements
 0- You need node.js and npm for this project to work. Go, install them.
